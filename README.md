@@ -41,5 +41,6 @@ Use the chat interface to query trends or execute custom scripts safely in Dayto
 
 ## Qodo Code Review Evidence
 
-- **Merged PR:** https://github.com/payas12/agent-harness-automation/pull/1
-- **Findings & Actions:** Qodo surfaced a High-severity reliability finding regarding exit codes on errors and a Medium-severity issue concerning missing network timeouts. Both were resolved in commit `714f827` before merging to `main`.
+- **PR #1 (Initial Setup & Trending Integration):** [PR #1 Link](https://github.com/payas12/agent-harness-automation/pull/1) — Qodo verified script reliability, network timeouts, and exit code handling.
+- **PR #2 (Telemetry Processing & Sandbox Pipeline):** [PR #2 Link](https://github.com/payas12/agent-harness-automation/pull/2) — Automated branch generation and execution validated via Qodo review before merge.
+- 
