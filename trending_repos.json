@@ -1,0 +1,32 @@
+[
+  {
+    "name": "deepseek-ai/deepseek-harness",
+    "stars": 196843,
+    "description": "DeepSeek Harness: Everything is a Plugin.",
+    "url": "https://github.com/deepseek-ai/deepseek-harness"
+  },
+  {
+    "name": "anywhere-labs/dsh-desktop",
+    "stars": 20519,
+    "description": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
+    "url": "https://github.com/anywhere-labs/dsh-desktop"
+  },
+  {
+    "name": "firecrawl/anydoc",
+    "stars": 18507,
+    "description": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
+    "url": "https://github.com/firecrawl/anydoc"
+  },
+  {
+    "name": "guillaumemeyer/watermarks-remover",
+    "stars": 18398,
+    "description": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+    "url": "https://github.com/guillaumemeyer/watermarks-remover"
+  },
+  {
+    "name": "yc-software/qm",
+    "stars": 14214,
+    "description": "Multiplayer agent harness for work.",
+    "url": "https://github.com/yc-software/qm"
+  }
+]
