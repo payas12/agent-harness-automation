@@ -1,5 +1,6 @@
 import urllib.request
 import json
+import sys
 from datetime import datetime, timedelta
 
 # Find repositories created in the last 30 days, sorted by stars descending
@@ -14,7 +15,8 @@ headers = {
 req = urllib.request.Request(url, headers=headers)
 
 try:
-    with urllib.request.urlopen(req) as response:
+    # Explicit timeout prevents indefinite hanging
+    with urllib.request.urlopen(req, timeout=15) as response:
         data = json.loads(response.read().decode('utf-8'))
         
     items = data.get('items', [])
@@ -43,4 +45,5 @@ try:
         print(f"| {name_link} | {repo['stars']:,} | {desc} |")
 
 except Exception as e:
-    print(f"Error fetching trending repositories: {e}")
+    print(f"Error fetching trending repositories: {e}", file=sys.stderr)
+    sys.exit(1)
